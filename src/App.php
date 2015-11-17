@@ -14,4 +14,4 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 $application->add(new ProductOverviewCommand());
-$application->run();
+$application->run(); 
